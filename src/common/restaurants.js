@@ -90,7 +90,7 @@ export const restaurants = [
     area: "Nigdi",
     avgRating: "3.8",
     cloudinaryImageId: "bxxfr0v1f0pjwfcxhwub",
-    cuisines: ["North Indian", "Maharashtrian", "Indian", "Desserts"],
+    cuisines: ["North Indian", "Maharashtrian ", "Indian "],
     tags: [],
     costForTwo: 40000,
     costForTwoString: "₹400 FOR TWO",

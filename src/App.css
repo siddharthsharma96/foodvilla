@@ -39,7 +39,9 @@ body{
   display: flex;
   height: 80px;
   justify-content: space-between;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  /* border-radius: 6px; */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-bar > img {
@@ -53,7 +55,6 @@ body{
   display: flex;
   align-items: center;
   margin-right: 40px;
-  border: 2px solid red;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -79,29 +80,52 @@ body{
 }
 
 .restaurant-card {
-  height: 500px;
-  width: 300px;
+  height: 400px;
+  width: 250px;
   margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .restaurant-card:hover {
   border: 1px solid gray;
   cursor: pointer;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .restaurant-card > img {
   width: 90%;
   height: 50%;
-  margin: 5px;
+  margin: 13px;
+  
+}
+.restaurant-card h3{
+  margin-left: 14px;
+}
+.restaurant-card>h4{
+  margin-left: 14px;
+  font-size: 15px;
+  margin-right: 13px;
+  font-weight: 500;
 }
 
 .res-info {
   display: flex;
   justify-content: space-around;
+  font-size: small;
+  font-weight: 500;
+
 }
 
 .res-container {
+  
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -116,6 +140,9 @@ body{
 
 .filter-search-bar {
   display: flex;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .top-rated {

@@ -26,6 +26,8 @@ const SearchComponent = (props) => {
         type="text"
         onChange={changeHandler}
         className="search-text"
+        placeholder="Enetr Restaurant"
+        required
       ></input>
       <button onClick={(e) => filterRestaurants(searchText)}>Search</button>
     </div>
